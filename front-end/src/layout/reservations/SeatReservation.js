@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { updateTable } from "../../utils/api";
 import ErrorAlert from "../ErrorAlert";
-import Tables from "../tables/tables";
+import Tables from "../tables/Tables";
 
 function SeatReservation() {
   const reservationId = useParams();
